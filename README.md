@@ -2,7 +2,17 @@
 
 Decorators to simplify and boost MVVM with Knockout
 
-### Start
+### Installation 
+
+Just add a script tag referencing this plugin. Make sure to place the reference after both Knockout and Knockout ES5 plugin:
+
+```HTML
+<script src='knockout-x.y.z.js'></script>
+<script src='knockout-es5.min.js'></script>
+<script src='knockout-es5-decorators.js'></script>
+```
+
+### Getting started
 
 All of the decorators are in the ko.decorators object but to make your code cleaner you can always make some aliases:
 
